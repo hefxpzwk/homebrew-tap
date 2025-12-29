@@ -1,11 +1,12 @@
 class Bbiribarabu < Formula
   desc "Git context-aware terminal with branch-based voice logs"
   homepage "https://github.com/hefxpzwk/Bbiribarabu"
-  url "https://github.com/hefxpzwk/Bbiribarabu/releases/download/v0.1.7/bbiribarabu-macos"
-  sha256 "0aac11bd68ad9626b47d57eb3b7e1f24573156377fdcc1bf39220206320ff361"
+
+  url "https://github.com/hefxpzwk/Bbiribarabu/releases/download/v0.0.0/bbiribarabu-macos-x86_64.tar.gz"
+  sha256 "REPLACE_ME"
 
   def install
-    bin.install "bbiribarabu-macos" => "bbiribarabu"
+    bin.install "bbiribarabu"
   end
 
   test do
